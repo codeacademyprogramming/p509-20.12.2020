@@ -52,29 +52,18 @@
    - [JS Date Object - Getting, Setting & Formatting Dates in JavaScript](https://youtu.be/-eRsWqwcPuk)
 3. **JavaScript - Exercises:**
    - Arrays:
-     - ``Write a function to filter out falsy values from array.``
-
-
-![javascript-array-image-exercise-39](https://user-images.githubusercontent.com/74110914/102804742-98769200-43d3-11eb-88a8-94b45ccff3cb.jpg)
-
-
-     - `Write a function to get a random element from array.``
+     - [`Write a function to filter out falsy values from array.`](https://user-images.githubusercontent.com/74110914/102804742-98769200-43d3-11eb-88a8-94b45ccff3cb.jpg)
+       - Input: removeFalsyValues([33, '', 'salam', true, null, false, 0]).
+       - Output: [33, 'salam', true].
+     - `Write a function to get a random element from array.`
+       - Input: getRandomValues([33, '', 'salam', true, null, false, 0]).
+       - Output: 0.
+     - [`Write a function to remove duplicate values from an array.`](https://user-images.githubusercontent.com/74110914/102804735-96143800-43d3-11eb-994a-0a83cb015c1f.jpg)
        - Input: removeDuplicates([1, 123, 33, 45, 66, 45, 123, 1]).
        - Output: [33, 66].
-     - `Write a function to remove duplicate values from an array.`
-
-
-![javascript-array-image-exercise-14](https://user-images.githubusercontent.com/74110914/102804735-96143800-43d3-11eb-994a-0a83cb015c1f.jpg)
-
-
-     - `Write a function to remove a given values from an array.`
+     - [`Write a function to remove a given values from an array.`](https://user-images.githubusercontent.com/74110914/102804739-97ddfb80-43d3-11eb-9954-5c5ad00d2c0c.jpg)
        - Input: removeFromArray([1, 123, 33, 45, 66], 45).
        - Output: [1, 123, 33, 66].
-
-
-![javascript-array-image-exercise-31](https://user-images.githubusercontent.com/74110914/102804739-97ddfb80-43d3-11eb-9954-5c5ad00d2c0c.jpg)
-
-
    - Date:
      - `Write a function to get the month name from a particular date.`
        - Input: getMonthName(new Date("10/11/2009")).
@@ -97,10 +86,10 @@
        - Input: truncate('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 3).
        - Output: "Lorem ipsum dolor".
      - `Write a function to truncate a text if it is longer than the given characters range. (Truncated strings should end with 3 dots ("…") (by default) or with specified given characters.)`
-       - 1) Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 20).
-       - 1) Output: "Lorem ipsum dolor si…".
-       - 2) Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 21, "- $$$").
-       - 2) Output: "Lorem ipsum dolor sit - $$$".
+       - Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 20).
+       - Output: "Lorem ipsum dolor si…".
+       - Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 21, "- $$$").
+       - Output: "Lorem ipsum dolor sit - $$$".
 
 
 ## Some other useful resources:
