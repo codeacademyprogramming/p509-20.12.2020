@@ -50,6 +50,58 @@
    - [Reduce basics - Functional Programming in JavaScript](https://youtu.be/Wl98eZpkp-c?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
    - [8 Must Know JavaScript Array Methods](https://youtu.be/R8rmfD9Y5-c)
    - [JS Date Object - Getting, Setting & Formatting Dates in JavaScript](https://youtu.be/-eRsWqwcPuk)
+3. **JavaScript - Exercises:**
+   - Arrays:
+     - ``Write a function to filter out falsy values from array.``
+
+
+![javascript-array-image-exercise-39](https://user-images.githubusercontent.com/74110914/102804742-98769200-43d3-11eb-88a8-94b45ccff3cb.jpg)
+
+
+     - `Write a function to get a random element from array.``
+       - Input: removeDuplicates([1, 123, 33, 45, 66, 45, 123, 1]).
+       - Output: [33, 66].
+     - `Write a function to remove duplicate values from an array.`
+
+
+![javascript-array-image-exercise-14](https://user-images.githubusercontent.com/74110914/102804735-96143800-43d3-11eb-994a-0a83cb015c1f.jpg)
+
+
+     - `Write a function to remove a given values from an array.`
+       - Input: removeFromArray([1, 123, 33, 45, 66], 45).
+       - Output: [1, 123, 33, 66].
+
+
+![javascript-array-image-exercise-31](https://user-images.githubusercontent.com/74110914/102804739-97ddfb80-43d3-11eb-9954-5c5ad00d2c0c.jpg)
+
+
+   - Date:
+     - `Write a function to get the month name from a particular date.`
+       - Input: getMonthName(new Date("10/11/2009")).
+       - Output: "October".
+     - `Write a function to get the number of days in a month.`
+       - Input: getNumberOfDays(5, 2020).
+       - Output: 31.
+     - `Write a function which return copyright text with current year.`
+       - Input: renderCopyRight().
+       - Output: "Copyright © 2020. All Rights Reserved.".
+     - `Write a function to check whether a given date is a weekend or not.`
+       - Input: isWeekend('Dec 21, 2020').
+       - Output: `false`.
+   - Number:
+     - `Write a function to calculate the percentage (%) of a total number from given.`
+       - Input: percentage(2345, 190).
+       - Output: "8.10%".
+   - String:
+     - `Write a function to truncate a text to a certain number of words.`
+       - Input: truncate('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 3).
+       - Output: "Lorem ipsum dolor".
+     - `Write a function to truncate a text if it is longer than the given characters range. (Truncated strings should end with 3 dots ("…") (by default) or with specified given characters.)`
+       - 1) Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 20).
+       - 1) Output: "Lorem ipsum dolor si…".
+       - 2) Input: truncateText('Lorem ipsum dolor sit amet, consectetur adipisicing elit.', 21, "- $$$").
+       - 2) Output: "Lorem ipsum dolor sit - $$$".
+
 
 ## Some other useful resources:
 
